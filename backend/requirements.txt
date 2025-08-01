@@ -1,7 +1,35 @@
-fastapi>=0.104.1,<1.0.0
-uvicorn>=0.24.0,<1.0.0
-python-multipart>=0.0.6,<1.0.0
-numpy>=1.24.3,<2.0.0
-opencv-python>=4.8.1.78,<5.0.0
-pillow>=10.0.1,<11.0.0
-ollama>=0.1.7,<1.0.0
+# Celestial Navigation API Dependencies
+# By Allah's will - bismillah!
+
+# Web Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# Computer Vision and Image Processing
+opencv-python==4.8.1.78
+numpy==1.24.3
+Pillow==10.0.1
+
+# Mathematical and Scientific Computing
+scipy==1.11.4
+scikit-image==0.22.0
+
+# AI/ML for Gemma integration (when model is added)
+# ollama==0.1.7  # Uncomment when ollama integration is ready
+# requests==2.31.0  # For API calls
+
+# Data Handling
+python-dateutil==2.8.2
+pytz==2023.3
+
+# Optional: Astronomical calculations (more precise than our simplified versions)
+# skyfield==1.48  # Professional astronomical calculations
+# pyephem==4.1.5  # Alternative astronomy library
+
+# Development and Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+
+# CORS support for Flutter
+python-cors==1.1.0
